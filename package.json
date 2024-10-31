@@ -1,0 +1,27 @@
+{
+  "name": "popup-creator-block",
+  "version": "1.0.0",
+  "description": "popup creator ",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "create the popup blocks",
+    "build": "wp-scripts build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alphaconnectgroup/popup-creator.git"
+  },
+  "keywords": [
+    "popup-creator"
+  ],
+  "author": "alphaconnectgroup",
+  "license": "GPL-2.0-only",
+  "bugs": {
+    "url": "https://github.com/alphaconnectgroup/popup-creator/issues"
+  },
+  "homepage": "https://github.com/alphaconnectgroup/popup-creator#readme",
+  "devDependencies": {
+    "@wordpress/scripts": "3.1.0"
+  },
+  "dependencies": {}
+}

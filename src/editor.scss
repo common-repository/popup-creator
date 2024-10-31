@@ -1,0 +1,81 @@
+/* ===================================
+* Name          : Popup Creator
+* URL           : https://alphaconnectgroup.com/products/
+* Description   : The beautiful popup plugin. Html,Contact many other popup types. create your own popup dimensions, effects, themes and more.
+* Version       : 1.0.0
+* Author        : Alpha Connect Group
+* Author URI    : https://alphaconnectgroup.com
+* Modified Date : 27 June 2019
+* File 			    : editor.scss
+*  =================================== */
+
+// Colors.
+$black: rgb(41, 41, 41);
+$white: #f4f4f4;
+$gray: #dedede;
+$green: #bada55;
+$red: orangered;
+
+
+.wp-admin select{
+    font-size: 13px;
+    padding: 10px 8px 10px 14px;
+    background: $white;
+    border: 1px solid $black;
+    height: 45px;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    // margin: 10px;
+  }
+  
+
+.wp-block-popup-creator-block {
+    // background: $green;
+    border: 0.2rem solid $black;
+    color: $black;
+    margin: 0 auto;
+    // max-width: 740px;
+    padding: 0.1rem;
+  }
+  
+  
+  .textfileds{
+    font-size: 13px;
+    padding: 10px 8px 10px 14px;
+    background: $white;
+    border: 1px solid $black;
+    height: 45px;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+  }
+  .button_elements{
+    width: 50%;
+    height: 45px;
+    border: 1px solid $black;
+  }
+
+  .wp-admin select .select select{
+    background: transparent;
+    line-height: 1;
+    border: 0;
+    padding: 0;
+    border-radius: 0;
+    width: 120%;
+    position: relative;
+    z-index: 10;
+    font-size: 1em;
+  }
+  .wp-admin .inpox{
+    font-size: 13px;
+    padding: 10px 8px 10px 14px;
+    background: $black;
+    border: 1px solid $black;
+    height: 45px;
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+    margin: 10px;
+  }
